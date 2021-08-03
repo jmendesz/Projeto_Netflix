@@ -1,0 +1,36 @@
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+   header .opcoes{
+      flex-direction: column;
+      
+   }
+
+    .botao{
+        margin-top: 20px;
+        width: 190px;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .botao-opcoes{
+        width: 30px;
+        height: 10px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .descricao{
+       width: 90%;    
+    }
+
+}
